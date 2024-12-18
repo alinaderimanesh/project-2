@@ -1,0 +1,130 @@
+body{
+    background-color:white;
+    background: url(/assets/images/back1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+/* .section{
+    width: 500px;
+    height: 500px;
+    background-color: blue;
+    margin-top: 0px;
+    
+   
+   
+} */
+.main{
+    width: 600px;
+    height: 500px;
+    background-color: rgba(128, 128, 128, 0.501);
+    margin-left: 600px;
+    margin-top: 200px;
+    border-radius: 20px;
+   
+}
+/* .form-group{
+   
+    
+} */
+ h1{
+    margin-left: 250px;
+    margin-top: 10px;
+ }
+.pass-row{
+    display: inline-block;
+    text-align: left;
+    width: 100%;
+   
+}
+.pass-row-child1{
+    display: inline-block;
+    color: red; 
+}
+.pass-row-child2{
+    display: inline-block; 
+    margin-left: 21px;
+    color: red;
+}
+.pass-input{
+    width:150px ;
+    border-color: red;
+}
+.input1{
+    margin-left: 48px;
+    width:420px ;
+}
+.input2{
+    margin-left: 50px;
+    width:420px ;
+}
+.input3{
+    margin-left: 81px;
+    width:420px ;
+}
+.input4{
+    margin-left: 67px;
+    width:420px ;
+}
+.input5{
+    margin-left: 22px;
+    width:420px ;
+}
+.input6{
+    margin-left: 34px;
+    width:423px ;
+}
+span{
+    margin-left: 20px;
+}
+input{
+    border-radius: 5px;
+    height: 20px;
+    background-color: rgba(228, 27, 228, 0.712);
+}
+button{
+    width: 550px;
+    margin-top: 10px;
+    margin-left: 20px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgba(244, 69, 6, 0.768);
+}
+button:hover{
+    background-color: chartreuse;
+    transition: all 2s;
+    font-size: 20px;
+}
+
+@media(max-width:400px){
+    /* *{
+        transform: scale(0.8);
+        
+        
+    } */
+    
+
+    
+    .main{
+        
+        background-color: rgba(128, 128, 128, 0.808);
+        margin-left: -110px;
+        margin-top: 200px;
+        border-radius: 20px;
+        transform: scale(0.58);
+       
+    }
+    body{
+        background-image: url(/assets/images/back2.jpg);
+        text-align: center;
+    }
+    .body{
+        width: 400px;
+        height: 950px;
+    }
+    .h1{
+        margin-left: 48 px;
+        margin-top: 10px;
+     }
+  
+}

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+</head>
+<style>
+    section{
+        display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    background-image: url(/assets/images/1.jpg);
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    height: 100vh;
+    justify-content: center;
+    }
+    .h1{
+        color: aqua;
+    }
+    main{
+        
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: stretch;
+        justify-content: center;
+}
+    form{
+        text-align: center;
+    }
+    .main{
+        width: 400px;
+        height: 550px;
+    }
+    .pass-row{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between; 
+    }
+    .form-group{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+       
+    }
+    .input{
+        display: flex;
+        flex:1;
+    }
+    .pass-input{
+        width: 80px;
+    }
+    input{
+        border-radius: 5px;
+        height: 20px;
+        background-color: rgba(228, 27, 228, 0.712);
+    }
+    span{
+    color:chartreuse
+    
+    }
+
+ 
+    button:hover{
+    background-color: chartreuse;
+    transition: all 2s;
+    font-size: 20px;
+   }
+   button{
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgba(244, 69, 6, 0.768);
+   }
+   @media(max-width:400px){
+    section{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center; 
+        background-image: url(/assets/images/2.jpg);
+        background-repeat:no-repeat ;
+        background-size: 100% 100%;
+    }
+    
+    
+   
+
+  
+    main{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background-color: rgba(20, 2, 2, 0.341);
+        background-repeat: no-repeat;
+        background-size: cover;
+        transform: scale(0.80);
+        border-radius: 20px;
+        justify-content: center;
+    }
+    input{
+        border-radius: 5px;
+        border-color: aqua;
+        background-color: rgba(21, 20, 21, 0.524);
+    }
+    span{
+    color:rgba(128, 255, 0, 0.438)
+    
+    }
+    
+    .pass-input{
+        width: 60px;
+    }
+    button:hover{
+    background-color: chartreuse;
+    transition: all 2s;
+    font-size: 20px;
+   }
+  
+}
+
+
+
+  
+</style>
+
+<body>
+    <section class="section">
+        
+        <main class="main">
+            <form action="/displayRegister.html" onsubmit="">
+                <br><h1 class="h1">Register</h1>
+                <div class="form-group">
+                    <span > First Name :</span>
+                    <input class="input"  type="text" required>
+                </div>
+                <br>
+                <div class="form-group">
+                    <span>Last Name :</span>
+                    <input class="input" type="text" required>
+                </div>
+                <br>
+                <div class="form-group">
+                    <span>Email :</span>
+                    <input class="input" type="email" required>
+
+                </div>
+                <br>
+                <div class="pass-row">
+                    <div class="pass-row-child">
+                        <span style="color:red">Password :</span>
+                        <input class="pass-input"  type="password" required>
+                    </div>
+                
+                    <div class="pass-row-child">
+                        <span style="color:red">Confirm Password :</span>
+                        <input class="pass-input"  type="password" required>
+                    </div>
+                </div>
+                <br>
+                <div class="form-group" >
+                    <span>Address :</span>
+                    <input class="input" type="text" required>
+
+                </div>
+                <br>  
+                <div  class="form-group">
+                    <span>Phone Number :</span>
+                    <input class="input" type="tel" required>
+
+                </div>
+                <br>
+                <div  class="form-group">
+                    <span>Date of Birth :</span>
+                    <input class="input" type="date" required>
+
+                </div>
+
+            </form>
+            <br>
+            <button><a href="/displayLogin.html">Register</a></button><br>
+            <button><a href="/displayLogin.html">Login Page</a></button><br>
+            <button><a href="/displayLogin.html">Click</a></button><br>
+        </main>
+    </section>
+
+</body>
+
+</html>

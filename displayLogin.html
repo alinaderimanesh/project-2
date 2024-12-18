@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    section {
+        display: flex;
+        height: 100vh;
+        flex-direction: column;
+    }
+
+    header {
+        height: 10%;
+        background-color: rgba(0, 0, 0, 0.656);
+        
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+
+    }
+
+    main {
+        display: flex;
+        flex-direction: row;
+        flex: 1;
+    }
+
+    footer {
+        height: 4%;
+        background-color: rgba(0, 0, 0, 0.566);
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+
+
+
+
+
+    }
+
+    .left-box {
+        width: 25%;
+        background-color: blueviolet;
+        background-image: url(/assets/images/3.jpg);
+        background-size: 100% 100%;
+        color: white;
+    }
+
+    .right-box {
+        display: flex;
+        flex: 1;
+        background-image: url(/assets/images/1.jpg);
+        background-size: 100% 100%;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: space-around
+    }
+
+    .right-span {
+        color: blue;
+        font-size: 30px;
+
+
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 40px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: rgb(242, 13, 234);
+    }
+
+    .right-p {
+        color:blueviolet;
+        font-size: 15px;
+    }
+
+    a {
+        text-decoration-line: none;
+        color: black;
+    }
+
+    button:hover {
+        transition: all 3s;
+        background-color: blue;
+
+    }
+
+    a:hover {
+        color: chartreuse;
+        transition: all 2s;
+    }
+
+    .button {
+        background-color: rgb(255, 8, 247);
+        border-radius: 5px;
+        border-width: 2px;
+        border-color: black;
+        transition: all 3s;
+        width: 150px;
+        height: 30px;
+        font-size: 20px;
+       
+
+
+    }
+
+   
+
+    .h3 {
+        font-size: 45px;
+        color: black;
+
+    }
+
+    .h2 {
+
+        font-size: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: rgba(242, 13, 234, 0.752);
+    }
+
+    h2 {
+        display: flex;
+    }
+
+    ul {
+        display: flex;
+        height: 30%;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+    }
+    li{
+        font-size: 30px;
+        color: white;
+    }
+    li:hover{
+        font-size: 50px;
+        color:chartreuse
+    }
+
+    @media(max-width:400px) {
+        body{
+            height: 50vh;
+        }
+        header {
+        height: 10%;
+        background-color: rgb(247, 7, 231);
+        color: white;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+
+    }
+    h1 {
+        text-align: center;
+        font-size: 40px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: rgb(247, 241, 247);
+    }
+       .h2 {
+
+        font-size: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: rgb(153, 248, 11);
+}
+h2 {
+        display: flex;
+    }
+        footer {
+        
+        background-color: black;
+        color: rgb(200, 245, 79);
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+
+    }
+        main {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        text-align: center;
+    }
+       .left-box {
+        width:100%;
+        text-align: center;
+        height: 8%;
+    }
+    ul {
+        display: flex;
+        height: 30%;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        width: 100%;
+        padding-left: 0px;
+        align-content: space-around;
+    }
+    li{
+        font-size: 20px;
+        color: white;
+    }
+    
+
+
+    .button{
+    background-color:rgb(255, 8, 247);
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: black;
+    transition:all 3s ;
+    height: 25px;
+    width: 100px;
+    font-size: 10px;
+   
+   
+    }
+    
+    section {
+        display: flex;
+        height: 100vh;
+        flex-direction: column;
+        text-align: center;
+    }
+    .right-box {
+        display: flex;
+        flex: 1;
+        background-image: url(/assets/images/1.jpg);
+        background-size: 100% 100%;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: flex-start;
+         
+    }
+   
+    .right-p {
+        color:rgb(242, 0, 255);
+        font-size: 13px;
+    }
+    .h3 {
+        font-size: 45px;
+        color:rgb(255, 0, 17);
+        border-width: 3px;
+        border-color: black;
+     
+    }
+    .right-span {
+        color: rgb(255, 255, 0);
+        font-size: 20px;
+
+
+    }
+
+}
+
+</style>
+
+<body>
+    <section>
+        <header>
+            <h1> My Flexbox layout</h1>
+
+        </header>
+        <main>
+            <div class="left-box">
+                <ul style="width: 100%;">
+                    <br>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+
+            <div class="right-box">
+                <br><span class="right-span">Main Content</span>
+                <p class="right-p">
+                    This is the main content area. Here you can put articles, images and more!!!</p>
+                
+                <h1 class="h3">Hello, World!</h1><br><br><br><br>
+                <br><br><br><br>
+                <div style="width: 100%;text-align: center;display: flex;width: 100%;
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-content: center;">
+                    <button class="button"><a href="/displayRegister.html">Register Page</a></button>
+                </div>
+            </div>
+            </div>
+        </main>
+        <footer>
+            <h2 class="h2">Footer Content</h2>
+        </footer>
+
+    </section>
+
+</body>
+
+</html>
+
+
+
